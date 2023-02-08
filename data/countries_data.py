@@ -2618,19 +2618,3 @@ my_list = [
         "currency": "Botswana pula"
     }
 ]
-
-counter=0
-new_lang=[]
-for i in my_list:
-	lang = i.get('languages')
-	#print( lang, ' : ', len(lang)  )
-	for j in range( len(lang) ):
-		new_lang.append(lang[j])
-		
-print(new_lang)
-for k in range(len(new_lang)):
-	print(new_lang[k], ' : ', new_lang.count(new_lang[k]))
-#print( "**********************",lang.count(lang[j]) )
-#	break
-
-
