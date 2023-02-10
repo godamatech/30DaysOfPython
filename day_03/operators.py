@@ -16,24 +16,24 @@ complex_number = 1 - 1j
 # perimeter_of_triangle = a + b + c
 # print(f"The perimeter of the triangle is {perimeter_of_triangle}")
 
-# length = float(input("Enter length of the rectangle: "))
-# width = float(input("Enter width of the rectangle: "))
-# area_of_rectangle = length * width
-# perimeter_of_rectangle = 2 * (length + width)
-# print(f"The area of the rectangle is {area_of_rectangle}")
-# print(f"The perimeter of the rectangle is {perimeter_of_rectangle}")
+length = float(input("Enter length of the rectangle: "))
+width = float(input("Enter width of the rectangle: "))
+area_of_rectangle = length * width
+perimeter_of_rectangle = 2 * (length + width)
+print(f"The area of the rectangle is {area_of_rectangle}")
+print(f"The perimeter of the rectangle is {perimeter_of_rectangle}")
  
-# r_of_circle = float(input("Enter Radius of a circle: "))
-# pi = 3.14
-# area_of_circle = pi * r_of_circle * r_of_circle
-# c_of_circle = 2 * pi * r_of_circle
-# print(f"The area of circle is {area_of_circle}")
-# print(f"The Circumference of circle is {c_of_circle}")
+r_of_circle = float(input("Enter Radius of a circle: "))
+pi = 3.14
+area_of_circle = pi * r_of_circle * r_of_circle
+c_of_circle = 2 * pi * r_of_circle
+print(f"The area of circle is {area_of_circle}")
+print(f"The Circumference of circle is {c_of_circle}")
 
 # intercept 
-# x_intercept = int(input("Enter x of intercept: "))
-# y_intercept = (2 * x_intercept) - 2
-# print(f"The slope of intercept is {y_intercept}")
+x_intercept = int(input("Enter x of intercept: "))
+y_intercept = (2 * x_intercept) - 2
+print(f"The slope of intercept is {y_intercept}")
 
 #  Euclidean distance between point (2, 2) and point (6,10)
 # x1,y1,x2,y2 = 2, 2, 6, 10 
