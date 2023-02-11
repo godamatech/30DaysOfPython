@@ -1,6 +1,6 @@
 # Exercises: Day 14
 
-from countries import countries
+from countries import countries 
 
 print('''Map takes an array as input, applies a function to each element 
        of the array, and returns a new array with the results. The new array 
@@ -181,4 +181,6 @@ print()
 def get_first_ten_countries(countries):
     return countries[:10]
 
+print(get_first_ten_countries(countries))
+print()
 
